@@ -11,7 +11,7 @@ import g_openClosedPrincipies.exercises.a_logger.models.LogFile;
 
 public class AppenderFactoryImpl implements AppenderFactory {
 
-    private static final String MODELS_PATH = "g_openClosedPrincipies.exercises.a_logger.models.";
+    private static final String MODELS_PATH = "g_openClosedPrincipies.j_objectCommunicationAndEvents.exercises.a_logger.models.";
 
     @Override
     @SuppressWarnings("unchecked")

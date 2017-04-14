@@ -41,7 +41,7 @@ public class BoatSimulatorController implements IBoatSimulatorController {
 
         this.database.getEngines().Add(engine);
         return String.format(
-                "Engine model %s with %s HP and displacement %s cm3 created successfully.", model, horsepower, displacement);
+                "Controller model %s with %s HP and displacement %s cm3 created successfully.", model, horsepower, displacement);
     }
 
     public String CreateRowBoat(String model, int weight, int oars) throws DuplicateModelException {
